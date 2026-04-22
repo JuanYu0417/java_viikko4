@@ -1,5 +1,5 @@
 package viikko4.lab;
 
-public class Measurable {
-    
+public interface Measurable{
+    double getMeasure();
 }
