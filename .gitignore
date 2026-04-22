@@ -1,0 +1,16 @@
+
+*.class
+**/*.class
+
+out/
+target/
+
+
+.idea/
+.vscode/
+*.iml
+
+
+.DS_Store
+Thumbs.db
+
