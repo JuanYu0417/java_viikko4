@@ -24,4 +24,25 @@ public class StudentRegister {
         }
         return result;
     }
+    public List<Student> withPointsBelow(int threshold){
+        
+        List<Student> result = new LinkedList<>();
+        for(Student student:students){
+            if(student.getPoints()<threshold){
+                result.add(student);
+            }
+        }
+        return result;
+    }
+
+    public List<Student> withPointsAbove(int threshold){
+        List<Student> result = new LinkedList<>();
+        for(Student student:students){
+            if(student.getPoints()>=threshold){
+                result.add(student);
+            }
+        }
+        return result;
+
+    }
 }
