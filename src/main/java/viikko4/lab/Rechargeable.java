@@ -1,5 +1,5 @@
 package viikko4.lab;
 
-public class Rechargeable {
-    
+public interface Rechargeable {
+    void recharge(int minutes);
 }
